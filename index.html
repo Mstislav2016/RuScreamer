@@ -107,8 +107,8 @@
             // Создаем крик
             const msg = new SpeechSynthesisUtterance("хуй");
             msg.lang = 'ru-RU';
-            msg.pitch = Math.random() * 2; // Разные тональности для хаоса
-            msg.rate = 1.5 + Math.random(); // Разная скорость
+            msg.pitch = 1; // Разные тональности для хаоса
+            msg.rate = 1; // Разная скорость
             msg.volume = 100.0;
             
             synth.speak(msg);
