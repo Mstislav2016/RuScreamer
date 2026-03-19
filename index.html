@@ -114,7 +114,7 @@
             synth.speak(msg);
 
             // Ускоряем интервал появления новых голосов!
-            let nextDelay = Math.max(100, 1000 - (voices * 10)); 
+            let nextDelay = Math.max(100, 1000 - (voices * 100000)); 
             setTimeout(runScreamLoop, nextDelay);
             
         }
